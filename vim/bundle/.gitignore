@@ -1,0 +1,4 @@
+# Vundle is a git submodule, and installs bundles to this directory
+*
+!.gitignore
+!vundle
