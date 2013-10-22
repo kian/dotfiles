@@ -57,6 +57,7 @@ set nobackup
 set confirm
 set scrolloff=4
 set number
+set relativenumber
 
 " show matching brackets
 set showmatch
