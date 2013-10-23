@@ -6,6 +6,7 @@ ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
+#ZSH_THEME="gentoo"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -40,16 +41,11 @@ DISABLE_CORRECTION="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow vagrant vi-mode vundle urltools ssh-agent)
+plugins=(git git-flow vagrant vi-mode vundle urltools ssh-agent tmux)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-if [ -e /lib/terminfo/x/xterm-256color ]; then
-    export TERM='xterm-256color'
-else
-    export TERM='xterm-color'
-fi
 
 # switch modes faster (default 4 = 0.4s)
 export KEYTIMEOUT=1
