@@ -47,6 +47,12 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 
+
+# gnome-terminal sets TERM to "xterm"
+if [[ "$COLORTERM" = "gnome-terminal" && "$TERM" = "xterm" ]]; then
+    export TERM="xterm-256color"
+fi
+
 # switch modes faster (default 4 = 0.4s)
 export KEYTIMEOUT=1
 
