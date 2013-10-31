@@ -4,8 +4,8 @@
 [hub]
         protocol = https
 [user]
-        name = Kian Mohageri
-        email = kian.mohageri@gmail.com
+	name = Kian Mohageri
+	email = kian.mohageri@gmail.com
 [credential]
         helper = cache
 [alias]

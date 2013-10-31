@@ -1,0 +1,5 @@
+set -g status-bg colour235
+set -g status-fg white
+set -g status-left "[#S] #[fg=green,bold]#H"
+set -g status-left-length 20
+set -g base-index 1
