@@ -79,4 +79,4 @@ if [[ $USER == "root" ]]; then
 fi
 
 # from robbyrussell theme
-export PROMPT='%{$fg_bold[red]%}%m%{$fg_bold[green]%}%p %{$fg[cyan]%}%2~ %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} %{$fg_bold[red]%}$promptchar %{$reset_color%} %'
+export PROMPT='%{$fg_bold[red]%}%m%{$fg_bold[green]%}%p %{$fg[cyan]%}%2~ %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} %{$fg_bold[red]%}$promptchar %{$reset_color%}%'
