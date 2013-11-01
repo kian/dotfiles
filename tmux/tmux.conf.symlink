@@ -1,5 +1,17 @@
-set -g status-bg colour235
-set -g status-fg white
-set -g status-left "[#S] #[fg=green,bold]#H"
-set -g status-left-length 20
-set -g base-index 1
+# useful table of color codes:
+# https://github.com/guns/xterm-color-table.vim
+
+set-option -g status-bg colour235
+set-option -g status-fg white
+set-option -g status-left "[#S] #[fg=green,bold]#H"
+set-option -g status-left-length 20
+set-option -g base-index 1
+
+set-window-option -g window-status-current-bg colour33 # light blue
+set-window-option -g window-status-current-fg black
+
+set-window-option -g monitor-activity on
+set-option -g visual-activity on
+
+set-option -g message-bg colour235
+set-option -g message-fg brightgreen
