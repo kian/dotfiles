@@ -1,6 +1,9 @@
 # useful table of color codes:
 # https://github.com/guns/xterm-color-table.vim
 
+# scroll wheel
+set-option -g mode-mouse on
+
 set-option -g status-bg colour235
 set-option -g status-fg white
 set-option -g status-left "[#S] #[fg=green,bold]#H"
