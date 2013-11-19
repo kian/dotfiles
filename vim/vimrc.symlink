@@ -69,3 +69,5 @@ set matchpairs+=<:>
 
 map <C-n> :NERDTreeToggle<CR>
 map t :NERDTreeToggle<CR>
+
+nnoremap <f5> :set relativenumber!<CR>
