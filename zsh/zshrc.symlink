@@ -10,11 +10,6 @@ ZSH_THEME="robbyrussell"
 
 ZSH_TMUX_AUTOSTART=false
 
-# gnome-terminal sets TERM to "xterm"
-if [[ "$COLORTERM" = "gnome-terminal" && "$TERM" = "xterm" ]]; then
-    export TERM="xterm-256color"
-fi
-
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -38,17 +33,17 @@ CASE_SENSITIVE="true"
 DISABLE_CORRECTION="true"
 
 # Uncomment following line if you want red dots to be displayed while waiting for completion
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment following line if you want to disable marking untracked files under
 # VCS as dirty. This makes repository status check for large repositories much,
 # much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
+DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow github vagrant vi-mode vundle urltools ssh-agent tmux)
+plugins=(debian git git-flow github vagrant vi-mode vundle ssh-agent tmux)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -76,6 +71,11 @@ bindkey '^r' history-incremental-search-backward
 promptchar='➜'
 if [[ $USER == "root" ]]; then
     promptchar="#"
+fi
+
+# gnome-terminal sets TERM to "xterm"
+if [[ "$COLORTERM" = "gnome-terminal" && "$TERM" = "xterm" ]]; then
+    export TERM="xterm-256color"
 fi
 
 # from robbyrussell theme
