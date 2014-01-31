@@ -24,6 +24,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'mileszs/ack.vim'
+Bundle 'rodjek/vim-puppet'
 
 set background=dark
 let g:rehash256 = 1
