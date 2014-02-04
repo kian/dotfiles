@@ -77,3 +77,5 @@
     #
     # Setting to git 2.0 default to surpress warning message
     default = simple
+[branch]
+	autosetuprebase = remote
