@@ -4,6 +4,8 @@
 # scroll wheel
 set-option -g mode-mouse on
 
+set -g default-terminal "screen-256color"
+
 set-option -g status-bg colour235
 set-option -g status-fg white
 set-option -g status-left "[#S] #[fg=green,bold]#H"
