@@ -25,6 +25,7 @@ Bundle 'tpope/vim-git'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'mileszs/ack.vim'
 Bundle 'rodjek/vim-puppet'
+"Bundle 'edkolev/tmuxline.vim'
 
 set background=dark
 let g:rehash256 = 1
@@ -72,3 +73,4 @@ map <C-n> :NERDTreeToggle<CR>
 map t :NERDTreeToggle<CR>
 
 nnoremap <f5> :set relativenumber!<CR>
+nnoremap <f6> :set nonumber!<CR>
