@@ -6,7 +6,6 @@ ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
-#ZSH_THEME="gentoo"
 
 ZSH_TMUX_AUTOSTART=false
 
@@ -79,7 +78,7 @@ if [[ "$COLORTERM" = "gnome-terminal" && "$TERM" = "xterm" ]]; then
 fi
 
 # from robbyrussell theme
-export PROMPT='%{$fg_bold[red]%}%m%{$fg_bold[green]%}%p %{$fg[cyan]%}%2~ %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} %{$fg_bold[red]%}$promptchar %{$reset_color%}%'
+#export PROMPT='%{$fg_bold[red]%}%m%{$fg_bold[green]%}%p %{$fg[cyan]%}%2~ %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} %{$fg_bold[red]%}$promptchar %{$reset_color%}%'
 
 alias ack='ack-grep'
 alias km='ssh kianmohageri.com'
