@@ -3,20 +3,12 @@
 
 # scroll wheel
 set-option -g mode-mouse on
-
-set -g default-terminal "screen-256color"
-
-set-option -g status-bg colour235
-set-option -g status-fg white
-set-option -g status-left "[#S] #[fg=green,bold]#H"
-set-option -g status-left-length 20
+set-option -g default-terminal "screen-256color"
 set-option -g base-index 1
-
-set-window-option -g window-status-current-bg colour33 # light blue
-set-window-option -g window-status-current-fg black
-
-set-window-option -g monitor-activity on
 set-option -g visual-activity on
-
 set-option -g message-bg colour235
 set-option -g message-fg brightgreen
+set-window-option -g monitor-activity on
+
+# import tmuxline customization
+if-shell "test -f ~/.tmux-tmuxline.conf" "source ~/.tmux-tmuxline.conf"

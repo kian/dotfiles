@@ -25,7 +25,7 @@ Bundle 'tpope/vim-git'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'mileszs/ack.vim'
 Bundle 'rodjek/vim-puppet'
-"Bundle 'edkolev/tmuxline.vim'
+Bundle 'edkolev/tmuxline.vim'
 
 set background=dark
 let g:rehash256 = 1
