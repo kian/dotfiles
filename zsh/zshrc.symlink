@@ -67,17 +67,12 @@ bindkey '^w' backward-kill-word
 # ctrl-r starts searching history backward
 bindkey '^r' history-incremental-search-backward
 
-promptchar='➜'
-if [[ $USER == "root" ]]; then
-    promptchar="#"
-fi
-
 # gnome-terminal sets TERM to "xterm"
 if [[ "$COLORTERM" = "gnome-terminal" && "$TERM" = "xterm" ]]; then
     export TERM="xterm-256color"
 fi
 
-# from robbyrussell theme
+# like the default robbyrussell prompt, but with the arrow on the right
 #export PROMPT='%{$fg_bold[red]%}%m%{$fg_bold[green]%}%p %{$fg[cyan]%}%2~ %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} %{$fg_bold[red]%}$promptchar %{$reset_color%}%'
 
 alias ack='ack-grep'
