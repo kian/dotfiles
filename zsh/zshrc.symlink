@@ -67,6 +67,8 @@ bindkey '^w' backward-kill-word
 # ctrl-r starts searching history backward
 bindkey '^r' history-incremental-search-backward
 
+# gnome/xfce terminals set TERM to "xterm" and use
+# COLORTERM instead, which confuses some apps
 # gnome-terminal sets TERM to "xterm"
 if [[ "$COLORTERM" = "gnome-terminal" && "$TERM" = "xterm" ]]; then
     export TERM="xterm-256color"
