@@ -71,9 +71,9 @@ bindkey '^r' history-incremental-search-backward
 if [[ "$COLORTERM" = "gnome-terminal" && "$TERM" = "xterm" ]]; then
     export TERM="xterm-256color"
 fi
-
-# like the default robbyrussell prompt, but with the arrow on the right
-#export PROMPT='%{$fg_bold[red]%}%m%{$fg_bold[green]%}%p %{$fg[cyan]%}%2~ %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} %{$fg_bold[red]%}$promptchar %{$reset_color%}%'
+if [[ "$COLORTERM" = "xfce4-terminal" && "$TERM" = "xterm" ]]; then
+    export TERM="xterm-256color"
+fi
 
 alias ack='ack-grep'
 alias km='ssh kianmohageri.com'

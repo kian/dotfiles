@@ -23,7 +23,7 @@ Bundle 'bling/vim-bufferline'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
 Bundle 'airblade/vim-gitgutter'
-Bundle 'mileszs/ack.vim'
+"Bundle 'mileszs/ack.vim'
 Bundle 'rodjek/vim-puppet'
 Bundle 'edkolev/tmuxline.vim'
 
