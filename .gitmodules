@@ -25,3 +25,6 @@
 [submodule "vim/vim.symlink/bundle/tmuxline.vim"]
 	path = vim/vim.symlink/bundle/tmuxline.vim
 	url = git@github.com:edkolev/tmuxline.vim.git
+[submodule "fonts/fonts.symlink/powerline-fonts"]
+	path = fonts/fonts.symlink/powerline-fonts
+	url = https://github.com/Lokaltog/powerline-fonts
