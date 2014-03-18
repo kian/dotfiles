@@ -49,7 +49,7 @@ set number
 set relativenumber
 set noshowmode " handled by vim-airline
 
-autocmd Filetype html,ruby,javascript setlocal ts=2 sts=2 sw=2
+autocmd Filetype yaml,html,ruby,javascript setlocal ts=2 sts=2 sw=2
 
 
 " show matching brackets
