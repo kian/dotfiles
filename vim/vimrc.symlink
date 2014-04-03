@@ -11,6 +11,8 @@ filetype plugin indent on
 set laststatus=2
 syntax on
 
+let mapleader = ','
+
 set background=dark
 let g:rehash256 = 1
 colorscheme molokai
